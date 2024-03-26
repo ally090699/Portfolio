@@ -1,4 +1,4 @@
-# Allison So's Portfolio Website
+# Allison So's Portfolio Website (PAUSED)
 
 ## Description
 Website navigates user through different pages of the website describing me and the projects I am working on. The portfolio page easily navigates the user through a series of cards describing the projects I have started and completed.
