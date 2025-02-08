@@ -1,8 +1,6 @@
 /* Global Styles */
 body {
   background-color: #ccd0cf;
-  margin: 0;
-  padding: 0;
   font-family: "Advent Pro", sans-serif;
 }
 
@@ -14,7 +12,15 @@ nav {
 
 .navbar-brand,
 .nav-link {
-  font-size: 2.5vw;
+  font-size: clamp(16px, 2.25vw, 22px);
+}
+
+.nav-link{
+  transition: 0.3 color ease;
+}
+
+.nav-link:hover{
+  color: #caa917;
 }
 
 /* Container & Layout */
@@ -33,7 +39,7 @@ h1 {
   font-family: "Jost";
   text-align: center;
   color: #143754;
-  font-size: 5vw;
+  font-size: clamp(30px, 5vw, 45px);
 }
 
 .abouttitle {
@@ -44,25 +50,21 @@ b {
   color: #caa917;
 }
 
-.subtitle {
-  color: #143754;
+.container .subtitle, .container .portfolio-subtitle {
   font-family: "Jost";
-  font-size: 3vw;
+  font-size: clamp(10px, 3vw, 25px);
   padding: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 300;
+  color: #627685;
 }
 
 .textcontent {
   color: #627685;
   font-weight: 300;
   font-stretch: semi-condensed;
-  font-size: 2.5vw;
-}
-
-/* Subheadings */
-h5 {
-  text-align: center;
-  font-weight: 300;
-  color: #627685;
+  font-size: clamp(14px, 2vw, 18px);
 }
 
 /* Travel Section */
@@ -92,7 +94,7 @@ footer {
   color: #ccd0cf;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10px;
+  padding: 5px;
   width: 100%;
   margin-top: 20px; /* Adjust as needed */
   position: relative;
@@ -102,7 +104,7 @@ footer {
 footer a {
   color: #b0b5b9;
   text-decoration: none;
-  font-size: 2.5vw;
+  font-size: clamp(14px, 2vw, 20px);
   transition: color 0.3s ease;
 }
 
@@ -113,7 +115,7 @@ footer a:hover {
 footer ul {
   padding: 30px;
   list-style: none;
-  font-size: 2.5vw;
+  font-size: clamp(14px, 2vw, 20px);
 }
 
 .footright {
@@ -128,7 +130,7 @@ footer ul {
 /* Responsive Styles */
 @media (min-width: 800px) {
   #caption {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 }
 
@@ -139,53 +141,78 @@ footer ul {
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
-  align-items: center;
+  align-items: flex-start;
   column-gap: 10px;
+  row-gap: 10px;
 }
 
 .gallery > div {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  max-width: 100vw;
 }
 
 .card-body {
-  background-color: #496f91;
+  background-color: #143754;
   border-radius: 5px;
 }
 
-.card-title {
+.card .card-title {
+  font-family: "Advent Pro";
   color: #caa917;
   font-weight: 500;
-  margin-top: 2px;
-  padding: 3px;
+  text-align: center;
+  margin-top: clamp(5px, 1.5vw, 10px);
+  font-size: clamp(16px, 1.75vw, 22px);
+}
+
+.card-subtitle {
+  margin-top: -0.5vw;
+  text-align: center;
+  font-size: clamp(13px, 1.4vw, 19px);
+  color: #456d8f;
 }
 
 .card-text {
   color: #dbd8c8;
   font-weight: 300;
+  font-size: clamp(12px, 1.25vw, 18px);
+  padding: 0.1vw;
+  margin-top: 5px;
 }
 
 .card-body > a {
   color: #b0b5b9;
+  font-size: clamp(12px, 1.25vw, 18px);
+  transition: color 0.3s ease;
+  text-decoration: underline;
+}
+
+.card-body > a:hover {
+  color: #caa917;
 }
 
 /* Sidenav */
 .sidenav {
   position: fixed;
+  margin-top: clamp(-100px, -10vw, -50px);
 }
 
 .sidenav a {
   text-align: left;
-  margin-left: 5px;
+  margin-left: 1vw;
+  font-weight: 500;
   color: #234967;
+  transition: 0.3 color ease;
+}
+
+.sidenav a:hover {
+  color: #caa917;
 }
 
 .colleft a {
-  font-size: small;
+  font-size: clamp(14px, 1.75vw, 20px);
   font-stretch: semi-condensed;
+  text-decoration: none;
 }
 
 .row {
@@ -197,6 +224,33 @@ body .titlebar b {
   color: #caa917;
 }
 
-.colright > h4 {
+.colright h4 {
   text-align: left;
+  font-size: clamp(20px, 1.75vw, 24px);
+  color: #143754;
+}
+
+#backToTopBtn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 10px;
+  justify-content: center;
+  align-content: center;
+  right: 10px;
+  z-index: 99; 
+  font-size: 15px;
+  padding: 2px;
+  color: #143754;
+  border: solid 1.25px #143754;
+  border-radius: 10px;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+}
+
+#backToTopBtn:hover {
+  opacity: 1;
+  background-color: #143754;
+  color: rgba(255, 255, 255, 0.707);
+  border: none;
 }

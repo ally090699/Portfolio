@@ -1,9 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
+  const location = useLocation();
+
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#143754"}}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           thestash.
@@ -22,17 +24,17 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" to="/">
+              <Link className={`nav-link ${location.pathname === "/" ? "active" : ""}`} to="/">
                 homebase
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/aboutme">
+              <Link className={`nav-link ${location.pathname === "/aboutme" ? "active" : ""}`} to="/aboutme">
                 about me
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" to="/portfolio">
+              <Link className={`nav-link ${location.pathname === "/portfolio" ? "active" : ""}`} to="/portfolio">
                 portfolio
               </Link>
             </li>

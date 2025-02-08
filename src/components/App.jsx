@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Header from "./Header";
 import Footer from "./Footer";
 import Homepage from "./Homepage";
@@ -8,6 +9,13 @@ import Portfolio from "./Portfolio";
 import "../styles.css";
 
 export default function App() {
+  function backToTop(event){
+    event.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+  }
   return (
     <Router>
       <div className="content-wrapper">
@@ -19,6 +27,7 @@ export default function App() {
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
         </div>
+        <button onClick={backToTop} id="backToTopBtn" title="Back to Top"><ArrowUpwardIcon/></button>
         <Footer />
       </div>
     </Router>
