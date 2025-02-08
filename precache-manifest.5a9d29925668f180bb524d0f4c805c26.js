@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "054cb98154fd6385e84067104aa4f648",
+    "revision": "464dc8363353b9ae0fa4bbc18da42bc0",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "f48461be29b4211a728b",
-    "url": "/Portfolio/static/css/main.2f1bef46.chunk.css"
+    "revision": "197a75abd221fca771a6",
+    "url": "/Portfolio/static/css/main.ae046366.chunk.css"
   },
   {
-    "revision": "18c686e05f3e08e1394b",
-    "url": "/Portfolio/static/js/2.727331d3.chunk.js"
+    "revision": "fab3d3ff7da6f93b405e",
+    "url": "/Portfolio/static/js/2.bddde012.chunk.js"
   },
   {
-    "revision": "f48461be29b4211a728b",
-    "url": "/Portfolio/static/js/main.dda91028.chunk.js"
+    "revision": "197a75abd221fca771a6",
+    "url": "/Portfolio/static/js/main.75458905.chunk.js"
   },
   {
     "revision": "49aa45ff9ca345ba2525",
@@ -74,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21cc32fd55bd42ffa5a8b8629864067b",
     "url": "/Portfolio/static/media/travel.21cc32fd.png"
+  },
+  {
+    "revision": "358ca4ea25d40d792930e83901299847",
+    "url": "/Portfolio/static/media/uwo_logo.358ca4ea.png"
   }
 ]);

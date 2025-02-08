@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2f1bef46.chunk.css",
-    "main.js": "/Portfolio/static/js/main.dda91028.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.dda91028.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.ae046366.chunk.css",
+    "main.js": "/Portfolio/static/js/main.75458905.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.75458905.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f506e4e2.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f506e4e2.js.map",
-    "static/js/2.727331d3.chunk.js": "/Portfolio/static/js/2.727331d3.chunk.js",
-    "static/js/2.727331d3.chunk.js.map": "/Portfolio/static/js/2.727331d3.chunk.js.map",
+    "static/js/2.bddde012.chunk.js": "/Portfolio/static/js/2.bddde012.chunk.js",
+    "static/js/2.bddde012.chunk.js.map": "/Portfolio/static/js/2.bddde012.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.a36a32c7efa8edb210d7b6c44b91bfd9.js": "/Portfolio/precache-manifest.a36a32c7efa8edb210d7b6c44b91bfd9.js",
+    "precache-manifest.5a9d29925668f180bb524d0f4c805c26.js": "/Portfolio/precache-manifest.5a9d29925668f180bb524d0f4c805c26.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.2f1bef46.chunk.css.map": "/Portfolio/static/css/main.2f1bef46.chunk.css.map",
+    "static/css/main.ae046366.chunk.css.map": "/Portfolio/static/css/main.ae046366.chunk.css.map",
     "static/media/Minesweeper.png": "/Portfolio/static/media/Minesweeper.a80626c9.png",
     "static/media/Untitled_Artwork 13.jpeg": "/Portfolio/static/media/Untitled_Artwork 13.a7e4b5aa.jpeg",
     "static/media/Untitled_Artwork 2.jpeg": "/Portfolio/static/media/Untitled_Artwork 2.d716e4b3.jpeg",
@@ -24,12 +24,13 @@
     "static/media/graphic_design_RDR2.jpg": "/Portfolio/static/media/graphic_design_RDR2.ee31f837.jpg",
     "static/media/graphic_design_RDR3.jpg": "/Portfolio/static/media/graphic_design_RDR3.74fc3e75.jpg",
     "static/media/kitCollective.png": "/Portfolio/static/media/kitCollective.bcfb5cfc.png",
-    "static/media/travel.png": "/Portfolio/static/media/travel.21cc32fd.png"
+    "static/media/travel.png": "/Portfolio/static/media/travel.21cc32fd.png",
+    "static/media/uwo_logo.png": "/Portfolio/static/media/uwo_logo.358ca4ea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f506e4e2.js",
-    "static/js/2.727331d3.chunk.js",
-    "static/css/main.2f1bef46.chunk.css",
-    "static/js/main.dda91028.chunk.js"
+    "static/js/2.bddde012.chunk.js",
+    "static/css/main.ae046366.chunk.css",
+    "static/js/main.75458905.chunk.js"
   ]
 }
