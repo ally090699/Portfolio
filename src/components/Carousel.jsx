@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Carousel(props) {
   return (
-    <div class="respond">
+    <div>
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"

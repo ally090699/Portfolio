@@ -5,7 +5,7 @@ export default function Header() {
   const location = useLocation();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#143754"}}>
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#120650"}}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           thestash.
