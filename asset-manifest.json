@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2f1bef46.chunk.css",
+    "main.js": "/Portfolio/static/js/main.dda91028.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.dda91028.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f506e4e2.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f506e4e2.js.map",
+    "static/js/2.727331d3.chunk.js": "/Portfolio/static/js/2.727331d3.chunk.js",
+    "static/js/2.727331d3.chunk.js.map": "/Portfolio/static/js/2.727331d3.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.a36a32c7efa8edb210d7b6c44b91bfd9.js": "/Portfolio/precache-manifest.a36a32c7efa8edb210d7b6c44b91bfd9.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.2f1bef46.chunk.css.map": "/Portfolio/static/css/main.2f1bef46.chunk.css.map",
+    "static/media/Minesweeper.png": "/Portfolio/static/media/Minesweeper.a80626c9.png",
+    "static/media/Untitled_Artwork 13.jpeg": "/Portfolio/static/media/Untitled_Artwork 13.a7e4b5aa.jpeg",
+    "static/media/Untitled_Artwork 2.jpeg": "/Portfolio/static/media/Untitled_Artwork 2.d716e4b3.jpeg",
+    "static/media/Untitled_Artwork.jpeg": "/Portfolio/static/media/Untitled_Artwork.d9787459.jpeg",
+    "static/media/coding_in_action.png": "/Portfolio/static/media/coding_in_action.278c34f1.png",
+    "static/media/crochetinaction.png": "/Portfolio/static/media/crochetinaction.1013ab58.png",
+    "static/media/designing_in_action.png": "/Portfolio/static/media/designing_in_action.d719523e.png",
+    "static/media/graphic_design_OCA1.png": "/Portfolio/static/media/graphic_design_OCA1.20defe3a.png",
+    "static/media/graphic_design_OCA2.png": "/Portfolio/static/media/graphic_design_OCA2.e5c0ccfe.png",
+    "static/media/graphic_design_RDR.png": "/Portfolio/static/media/graphic_design_RDR.e59bac4f.png",
+    "static/media/graphic_design_RDR2.jpg": "/Portfolio/static/media/graphic_design_RDR2.ee31f837.jpg",
+    "static/media/graphic_design_RDR3.jpg": "/Portfolio/static/media/graphic_design_RDR3.74fc3e75.jpg",
+    "static/media/kitCollective.png": "/Portfolio/static/media/kitCollective.bcfb5cfc.png",
+    "static/media/travel.png": "/Portfolio/static/media/travel.21cc32fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f506e4e2.js",
+    "static/js/2.727331d3.chunk.js",
+    "static/css/main.2f1bef46.chunk.css",
+    "static/js/main.dda91028.chunk.js"
+  ]
+}
