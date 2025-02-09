@@ -10,11 +10,11 @@ export default function Portfolio() {
       <div className="container titlebar">
         <div>
           <h1>
-            finally, <b>the stash.</b>
+            Finally, <b>the stash.</b>
           </h1>
         </div>
         <div>
-          <h5 className="portfolio-subtitle">i try to stay busy so hopefully you see something you like!</h5>
+          <h5 className="portfolio-subtitle">I try to stay busy so hopefully you see something you like!</h5>
         </div>
       </div>
       <div className="row">
@@ -43,7 +43,7 @@ export default function Portfolio() {
             className="scrollspy-example"
             tabindex="0"
           >
-            <h4 id="simple-list-item-1"><span role="img" aria-label="Girl on Computer emoji">👩🏻‍💻</span>programming.</h4>
+            <h4 id="simple-list-item-1"><span role="img" aria-label="Girl on Computer emoji">👩🏻‍💻</span>Programming.</h4>
             <div className="container gallery">
               {programming.map((project, index) => (
                 <Card 
@@ -58,7 +58,7 @@ export default function Portfolio() {
               ))}
             </div>
           </div>
-          <h4 id="simple-list-item-2"><span role="img" aria-label="Female Artist emoji">👩🏻‍🎨</span>design.</h4>
+          <h4 id="simple-list-item-2"><span role="img" aria-label="Female Artist emoji">👩🏻‍🎨</span>Design.</h4>
           <div className="container gallery">
           {designing.map((project, index) => (
                 <Card 
@@ -72,7 +72,7 @@ export default function Portfolio() {
                 />
               ))}
           </div>
-          <h4 id="simple-list-item-3"><span role="img" aria-label="Dress emoji">👗</span>fashion.</h4>
+          <h4 id="simple-list-item-3"><span role="img" aria-label="Dress emoji">👗</span>Fashion.</h4>
           <div className="container gallery">
               {fashion.map((project, index) => (
                 <Card 

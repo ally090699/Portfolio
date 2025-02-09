@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-  background-color: #f3ebf8;
+  background-color: #f7f2f9;
   font-family: "Advent Pro", sans-serif;
 }
 
@@ -61,6 +61,10 @@ h1 {
   text-align: center;
   color: #1e1168;
   font-size: clamp(25px, 3.5vw, 35px);
+}
+
+#aboutcontent .textcontent{
+  text-indent: 35px;
 }
 
 b {

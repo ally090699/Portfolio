@@ -8,15 +8,15 @@ export default function Aboutme() {
     <div className="container">
       <div className="abouttitle">
         <h1>
-          enter <b>my domain</b>.
+          Enter <b>my domain</b>.
         </h1>
         <h1>
-          <b>explore</b> the lore.
+          <b>Explore</b> the lore.
         </h1>
       </div>
       <div>
         <h5 className="subtitle">
-          i am a <b>creator</b>, <b>designer</b> and <b>programmer</b> with a
+          I am a <b>creator</b>, <b>designer</b> and <b>programmer</b> with a
           foundation in computer science and medical science.
         </h5>
         <div className="travel">
@@ -31,7 +31,7 @@ export default function Aboutme() {
           </div>
         </div>
       </div>
-      <div>
+      <div id="aboutcontent">
         <h1 className="abouttitle">
         <span role="img" aria-label="Girl on Computer emoji">👩🏻‍💻</span><b>experience</b>.
         </h1>
