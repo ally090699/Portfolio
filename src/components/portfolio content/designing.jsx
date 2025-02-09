@@ -47,7 +47,7 @@ const designing = [
     },
     {
         key: 5,
-        title: "Auto-brewery Syndrom",
+        title: "Auto-brewery Syndrome",
         subtitle: "Journal Banner",
         img: img5,
         text: "Banner made for journal paper in the Rare Disease Review journal.",
