@@ -56,6 +56,13 @@ h1 {
   padding: 20px;
 }
 
+.aboutsubtitle{
+  font-family: "Jost";
+  text-align: center;
+  color: #1e1168;
+  font-size: clamp(25px, 3.5vw, 35px);
+}
+
 b {
   color: #ec1cb1;
 }

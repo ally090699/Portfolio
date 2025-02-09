@@ -3,6 +3,10 @@ import img2 from "../../images/graphic_design_OCA2.png";
 import img3 from "../../images/graphic_design_RDR.png";
 import img4 from "../../images/graphic_design_RDR2.jpg";
 import img5 from "../../images/graphic_design_RDR3.jpg";
+import img6 from "../../images/graphic_design_JFSS.jpg";
+import img7 from "../../images/graphic_designJFSS2.jpg";
+
+
 
 const designing = [
     {
@@ -43,10 +47,28 @@ const designing = [
     },
     {
         key: 5,
-        title: "Harlequin Ichthyosis",
-        subtitle: "Auto-Brewery Syndrome",
+        title: "Auto-brewery Syndrom",
+        subtitle: "Journal Banner",
         img: img5,
         text: "Banner made for journal paper in the Rare Disease Review journal.",
+        linkName: "",
+        url: "",
+    },
+    {
+        key: 6,
+        title: "Friday Night Lights",
+        subtitle: "Ticket Design",
+        img: img6,
+        text: "Ticket design made for the Royal Treatment club using Adobe Photoshop.",
+        linkName: "",
+        url: "",
+    },
+    {
+        key: 7,
+        title: "Royal Premiere",
+        subtitle: "Ticket Design",
+        img: img7,
+        text: "Ticket design made for the Royal Treatment club using Adobe Photoshop.",
         linkName: "",
         url: "",
     },

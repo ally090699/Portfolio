@@ -1,6 +1,9 @@
 import img1 from "../../images/uwo_logo.png";
 import img2 from "../../images/kitCollective.png";
 import img3 from "../../images/Minesweeper.png";
+import img4 from "../../images/Breast_Cancer_Diagnosis.png";
+import img5 from "../../images/MeowMeowPizzamatics.png";
+import img6 from "../../images/knightnight.png";
 
 const programming = [
     {
@@ -29,6 +32,33 @@ const programming = [
         text: "E-commerce website created with Bootstrap, enhanced parallax, scrollfire, transitions, animations and responsiveness.",
         linkName: "View",
         url: "https://ally090699.github.io/kitCollective/",
+    },
+    {
+        key: 4,
+        title: "Breast Cancer Diagnosis",
+        subtitle: "Machine Learning",
+        img: img4,
+        text: "Our group developed a breast cancer prediction model, with random forest achieving the highest accuracy and 100% recall for early detection.",
+        linkName: "View",
+        url: "https://github.com/hzhou02/DS3000-Group13",
+    },
+    {
+        key: 5,
+        title: "Java Math Game",
+        subtitle: "Full Stack Development",
+        img: img5,
+        text: "Our group built a Java math game in Apache NetBeans, mastering user data storage, JUnit testing, and collaborative development.",
+        linkName: "View",
+        url: "https://github.com/alyssa1522/2212-group-project",
+    },
+    {
+        key: 6,
+        title: "Knight Night",
+        subtitle: "SheHacks Hackathon",
+        img: img6,
+        text: "Collaborated on an app for individuals with dementia, using motion detection hardware at exits to alert caregivers and emergency contacts for enhanced safety.",
+        linkName: "View",
+        url: "https://github.com/alyssa1522/night-knight-app",
     },
 ];
 
