@@ -31,7 +31,7 @@ const programming = [
         img: img3,
         text: "E-commerce website created with Bootstrap, enhanced parallax, scrollfire, transitions, animations and responsiveness.",
         linkName: "View",
-        url: "https://ally090699.github.io/kitCollective/",
+        url: "https://ally090699.github.io/Kit-Collective/",
     },
     {
         key: 4,
