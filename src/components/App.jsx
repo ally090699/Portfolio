@@ -22,7 +22,7 @@ export default function App() {
         <Header />
         <div className="main-content">
           <Switch>
-            <Route default path="/" component={Homepage} />
+            <Route exact path="/" component={Homepage} />
             <Route path="/aboutme" component={Aboutme} />
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
