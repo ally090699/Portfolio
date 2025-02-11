@@ -3,8 +3,8 @@ import img2 from "../../images/Minesweeper.png";
 import img3 from "../../images/kitCollective.png";
 import img4 from "../../images/Breast_Cancer_Diagnosis.png";
 import img5 from "../../images/MeowMeowPizzamatics.png";
-import img6 from "../../images/knightnight.png";
-import img7 from "../../images/kitCollectiveFS.png";
+import img6 from "../../images/kitCollectiveFS.png";
+import img7 from "../../images/knightnight.png";
 
 
 const programming = [
@@ -55,22 +55,23 @@ const programming = [
     },
     {
         key: 6,
-        title: "Knight Night",
-        subtitle: "SheHacks Hackathon",
-        img: img6,
-        text: "Collaborated on an app for individuals with dementia, using motion detection hardware at exits to alert caregivers and emergency contacts for enhanced safety.",
-        linkName: "View",
-        url: "https://github.com/alyssa1522/night-knight-app",
-    },
-    {
-        key: 7,
         title: "Kit Collective 2.0",
         subtitle: "Full Stack Web Development",
-        img: img7,
+        img: img6,
         text: "A full-stack e-commerce site with a PostgreSQL backend, featuring a functional contact form and seamless user experience.",
         linkName: "View",
         url: "https://kit-collective-snh4.onrender.com/",
     },
+    {
+        key: 7,
+        title: "Knight Night",
+        subtitle: "SheHacks Hackathon",
+        img: img7,
+        text: "Collaborated on an app for individuals with dementia, using motion detection hardware at exits to alert caregivers and emergency contacts for enhanced safety.",
+        linkName: "View",
+        url: "https://github.com/alyssa1522/night-knight-app",
+    },
+    
 ];
 
 export default programming;
