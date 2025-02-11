@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.da4b02d0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.299ab7c7.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.299ab7c7.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.6dce2a7b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6dce2a7b.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.adf56481.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.adf56481.js.map",
-    "static/js/2.7d08664f.chunk.js": "/Portfolio/static/js/2.7d08664f.chunk.js",
-    "static/js/2.7d08664f.chunk.js.map": "/Portfolio/static/js/2.7d08664f.chunk.js.map",
+    "static/js/2.a73c0b7a.chunk.js": "/Portfolio/static/js/2.a73c0b7a.chunk.js",
+    "static/js/2.a73c0b7a.chunk.js.map": "/Portfolio/static/js/2.a73c0b7a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.efc03e942a6ee98bf167cf158893b198.js": "/Portfolio/precache-manifest.efc03e942a6ee98bf167cf158893b198.js",
+    "precache-manifest.59e8a2cfdea87027fafcdc42c38229ac.js": "/Portfolio/precache-manifest.59e8a2cfdea87027fafcdc42c38229ac.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.da4b02d0.chunk.css.map": "/Portfolio/static/css/main.da4b02d0.chunk.css.map",
     "static/media/Breast_Cancer_Diagnosis.png": "/Portfolio/static/media/Breast_Cancer_Diagnosis.458a85a9.png",
@@ -33,14 +33,15 @@
     "static/media/graphic_design_RDR2.jpg": "/Portfolio/static/media/graphic_design_RDR2.ee31f837.jpg",
     "static/media/graphic_design_RDR3.jpg": "/Portfolio/static/media/graphic_design_RDR3.74fc3e75.jpg",
     "static/media/kitCollective.png": "/Portfolio/static/media/kitCollective.bcfb5cfc.png",
+    "static/media/kitCollectiveFS.png": "/Portfolio/static/media/kitCollectiveFS.7cedc527.png",
     "static/media/knightnight.png": "/Portfolio/static/media/knightnight.8cd43d3e.png",
     "static/media/travel.png": "/Portfolio/static/media/travel.21cc32fd.png",
     "static/media/uwo_logo.png": "/Portfolio/static/media/uwo_logo.358ca4ea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.adf56481.js",
-    "static/js/2.7d08664f.chunk.js",
+    "static/js/2.a73c0b7a.chunk.js",
     "static/css/main.da4b02d0.chunk.css",
-    "static/js/main.299ab7c7.chunk.js"
+    "static/js/main.6dce2a7b.chunk.js"
   ]
 }
