@@ -13,7 +13,7 @@ const programming = [
         title: "UWO Assignments",
         subtitle: "Software Development",
         img: img1,
-        text: "All assignments completed as part of the Computer Science major at Western University.",
+        text: "CS assignments completed at UWO. Folders of importance: 3357 (Computer Networks) and 3000 (Machine Learning).",
         linkName: "View",
         url: "https://github.com/ally090699/uwocs",
     },
@@ -71,7 +71,6 @@ const programming = [
         linkName: "View",
         url: "https://github.com/alyssa1522/night-knight-app",
     },
-    
 ];
 
 export default programming;
