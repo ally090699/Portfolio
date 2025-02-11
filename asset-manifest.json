@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.da4b02d0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.6dce2a7b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.6dce2a7b.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.6f514765.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6f514765.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.adf56481.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.adf56481.js.map",
     "static/js/2.a73c0b7a.chunk.js": "/Portfolio/static/js/2.a73c0b7a.chunk.js",
     "static/js/2.a73c0b7a.chunk.js.map": "/Portfolio/static/js/2.a73c0b7a.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.59e8a2cfdea87027fafcdc42c38229ac.js": "/Portfolio/precache-manifest.59e8a2cfdea87027fafcdc42c38229ac.js",
+    "precache-manifest.a6352efbd0758127eb96cc9c541e16ec.js": "/Portfolio/precache-manifest.a6352efbd0758127eb96cc9c541e16ec.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.da4b02d0.chunk.css.map": "/Portfolio/static/css/main.da4b02d0.chunk.css.map",
     "static/media/Breast_Cancer_Diagnosis.png": "/Portfolio/static/media/Breast_Cancer_Diagnosis.458a85a9.png",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.adf56481.js",
     "static/js/2.a73c0b7a.chunk.js",
     "static/css/main.da4b02d0.chunk.css",
-    "static/js/main.6dce2a7b.chunk.js"
+    "static/js/main.6f514765.chunk.js"
   ]
 }
