@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.da4b02d0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.66f15065.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.66f15065.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.04968b24.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.04968b24.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.adf56481.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.adf56481.js.map",
-    "static/js/2.a73c0b7a.chunk.js": "/Portfolio/static/js/2.a73c0b7a.chunk.js",
-    "static/js/2.a73c0b7a.chunk.js.map": "/Portfolio/static/js/2.a73c0b7a.chunk.js.map",
+    "static/js/2.1fc6092d.chunk.js": "/Portfolio/static/js/2.1fc6092d.chunk.js",
+    "static/js/2.1fc6092d.chunk.js.map": "/Portfolio/static/js/2.1fc6092d.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.fe2e837173dced90c4ceac659f5b761c.js": "/Portfolio/precache-manifest.fe2e837173dced90c4ceac659f5b761c.js",
+    "precache-manifest.a175343f3428b072e4ae6e5c1c96c565.js": "/Portfolio/precache-manifest.a175343f3428b072e4ae6e5c1c96c565.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.da4b02d0.chunk.css.map": "/Portfolio/static/css/main.da4b02d0.chunk.css.map",
     "static/media/Breast_Cancer_Diagnosis.png": "/Portfolio/static/media/Breast_Cancer_Diagnosis.458a85a9.png",
     "static/media/MeowMeowPizzamatics.png": "/Portfolio/static/media/MeowMeowPizzamatics.087e9c56.png",
     "static/media/Minesweeper.png": "/Portfolio/static/media/Minesweeper.a80626c9.png",
+    "static/media/VSAID.png": "/Portfolio/static/media/VSAID.cce20be0.png",
     "static/media/coding_in_action.png": "/Portfolio/static/media/coding_in_action.278c34f1.png",
     "static/media/crochet1.jpg": "/Portfolio/static/media/crochet1.ce511f12.jpg",
     "static/media/crochet2.jpg": "/Portfolio/static/media/crochet2.464c7453.jpg",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.adf56481.js",
-    "static/js/2.a73c0b7a.chunk.js",
+    "static/js/2.1fc6092d.chunk.js",
     "static/css/main.da4b02d0.chunk.css",
-    "static/js/main.66f15065.chunk.js"
+    "static/js/main.04968b24.chunk.js"
   ]
 }

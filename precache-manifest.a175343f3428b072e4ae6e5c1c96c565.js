@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5852510acbd0bae29b99c07db99f760",
+    "revision": "548442fceb6a387fa5c14b035a5b4695",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "6e254a39c629c6855447",
+    "revision": "5fe6a47d12d8ee714a5d",
     "url": "/Portfolio/static/css/main.da4b02d0.chunk.css"
   },
   {
-    "revision": "7826ee2e32ee3dc5db7f",
-    "url": "/Portfolio/static/js/2.a73c0b7a.chunk.js"
+    "revision": "0835ae0bafafb13952e5",
+    "url": "/Portfolio/static/js/2.1fc6092d.chunk.js"
   },
   {
-    "revision": "6e254a39c629c6855447",
-    "url": "/Portfolio/static/js/main.66f15065.chunk.js"
+    "revision": "5fe6a47d12d8ee714a5d",
+    "url": "/Portfolio/static/js/main.04968b24.chunk.js"
   },
   {
     "revision": "5be3980083a0b68a5f54",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a80626c97c9e43a4a1e1fc902562d279",
     "url": "/Portfolio/static/media/Minesweeper.a80626c9.png"
+  },
+  {
+    "revision": "cce20be0b81adf832ca9e61d493cc9dd",
+    "url": "/Portfolio/static/media/VSAID.cce20be0.png"
   },
   {
     "revision": "278c34f1c877f8dff2044e1e303024a4",
