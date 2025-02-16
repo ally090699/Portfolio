@@ -5,7 +5,7 @@ import img4 from "../../images/Breast_Cancer_Diagnosis.png";
 import img5 from "../../images/MeowMeowPizzamatics.png";
 import img6 from "../../images/kitCollectiveFS.png";
 import img7 from "../../images/knightnight.png";
-
+import img8 from "../../images/VSAID.png";
 
 const programming = [
     {
@@ -70,6 +70,15 @@ const programming = [
         text: "Collaborated on an app for individuals with dementia, using motion detection hardware at exits to alert caregivers and emergency contacts for enhanced safety.",
         linkName: "View",
         url: "https://github.com/alyssa1522/night-knight-app",
+    },
+    {
+        key: 8,
+        title: "Visual Study AI-D",
+        subtitle: "C++ Desktop App",
+        img: img8,
+        text: "An ongoing personal C++ project for a desktop application that converts information from uploaded files or captured video into an animated video summary. Currently, the frontend is nearly complete, and SQLite has been integrated for login and authentication, with password hashing for security.",
+        linkName: "View",
+        url: "https://github.com/ally090699/VSAI-D",
     },
 ];
 
