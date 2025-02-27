@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.da4b02d0.chunk.css",
-    "main.js": "/Portfolio/static/js/main.db5bba9e.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.db5bba9e.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.45c5a6d0.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.45c5a6d0.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.adf56481.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.adf56481.js.map",
-    "static/js/2.e598d55a.chunk.js": "/Portfolio/static/js/2.e598d55a.chunk.js",
-    "static/js/2.e598d55a.chunk.js.map": "/Portfolio/static/js/2.e598d55a.chunk.js.map",
+    "static/js/2.0dde0d29.chunk.js": "/Portfolio/static/js/2.0dde0d29.chunk.js",
+    "static/js/2.0dde0d29.chunk.js.map": "/Portfolio/static/js/2.0dde0d29.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.8ce88b441669a2a6a97d419bac8dee37.js": "/Portfolio/precache-manifest.8ce88b441669a2a6a97d419bac8dee37.js",
+    "precache-manifest.2b4db069504799e0d556da25514b6218.js": "/Portfolio/precache-manifest.2b4db069504799e0d556da25514b6218.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.da4b02d0.chunk.css.map": "/Portfolio/static/css/main.da4b02d0.chunk.css.map",
     "static/media/Breast_Cancer_Diagnosis.png": "/Portfolio/static/media/Breast_Cancer_Diagnosis.458a85a9.png",
@@ -36,13 +36,14 @@
     "static/media/kitCollective.png": "/Portfolio/static/media/kitCollective.bcfb5cfc.png",
     "static/media/kitCollectiveFS.png": "/Portfolio/static/media/kitCollectiveFS.7cedc527.png",
     "static/media/knightnight.png": "/Portfolio/static/media/knightnight.8cd43d3e.png",
+    "static/media/next-kit-collective.png": "/Portfolio/static/media/next-kit-collective.b289f3b4.png",
     "static/media/travel.png": "/Portfolio/static/media/travel.21cc32fd.png",
     "static/media/uwo_logo.png": "/Portfolio/static/media/uwo_logo.358ca4ea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.adf56481.js",
-    "static/js/2.e598d55a.chunk.js",
+    "static/js/2.0dde0d29.chunk.js",
     "static/css/main.da4b02d0.chunk.css",
-    "static/js/main.db5bba9e.chunk.js"
+    "static/js/main.45c5a6d0.chunk.js"
   ]
 }
