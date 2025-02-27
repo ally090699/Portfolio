@@ -6,6 +6,8 @@ import img5 from "../../images/MeowMeowPizzamatics.png";
 import img6 from "../../images/kitCollectiveFS.png";
 import img7 from "../../images/knightnight.png";
 import img8 from "../../images/VSAID.png";
+import img9 from "../../images/next-kit-collective.png";
+
 
 const programming = [
     {
@@ -84,7 +86,7 @@ const programming = [
         key: 9,
         title: "Kit Collective",
         subtitle: "NextJS Web Development",
-        img: img8,
+        img: img9,
         text: "A full stack NextJS e-commerce site with a MySQL backend hosted on AWS RDS, featuring a functional contact form and Tailwind CSS.",
         linkName: "View",
         url: "https://nextjs-kit-collective.onrender.com",
