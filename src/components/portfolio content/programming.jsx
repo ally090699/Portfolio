@@ -85,7 +85,7 @@ const programming = [
     {
         key: 9,
         title: "Kit Collective",
-        subtitle: "NextJS Web Development",
+        subtitle: "Full Stack Web Development",
         img: img9,
         text: "A full stack NextJS e-commerce site with a MySQL backend hosted on AWS RDS, featuring a functional contact form and Tailwind CSS.",
         linkName: "View",
