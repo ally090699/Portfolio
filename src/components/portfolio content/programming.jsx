@@ -58,7 +58,7 @@ const programming = [
         title: "Kit Collective 2.0",
         subtitle: "Full Stack Web Development",
         img: img6,
-        text: "A full-stack e-commerce site with a PostgreSQL backend, featuring a functional contact form and seamless user experience.",
+        text: "A full-stack e-commerce site with a PostgreSQL backend hosted on Render, featuring a functional contact form and seamless user experience.",
         linkName: "View",
         url: "https://kit-collective-snh4.onrender.com/",
     },
@@ -79,6 +79,15 @@ const programming = [
         text: "An ongoing personal C++ project for a desktop application that converts information from uploaded files or captured video into an animated video summary. Currently, the frontend is nearly complete, and SQLite has been integrated for login and authentication, with password hashing for security.",
         linkName: "View",
         url: "https://github.com/ally090699/VSAI-D",
+    },
+    {
+        key: 9,
+        title: "Kit Collective",
+        subtitle: "NextJS Web Development",
+        img: img8,
+        text: "A full stack NextJS e-commerce site with a MySQL backend hosted on AWS RDS, featuring a functional contact form and Tailwind CSS.",
+        linkName: "View",
+        url: "https://nextjs-kit-collective.onrender.com",
     },
 ];
 
