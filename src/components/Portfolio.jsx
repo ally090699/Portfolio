@@ -41,7 +41,7 @@ export default function Portfolio() {
             data-bs-offset="0"
             data-bs-smooth-scroll="true"
             className="scrollspy-example"
-            tabindex="0"
+            tabIndex="0"
           >
             <h4 id="simple-list-item-1"><span role="img" aria-label="Girl on Computer emoji">👩🏻‍💻</span>Programming.</h4>
             <div className="container gallery">
@@ -51,6 +51,7 @@ export default function Portfolio() {
                   title={project.title}
                   subtitle={project.subtitle}
                   img={project.img}
+                  stack={project.stack}
                   text={project.text}
                   linkName={project.linkName}
                   url={project.url}
@@ -66,6 +67,7 @@ export default function Portfolio() {
                   title={project.title}
                   subtitle={project.subtitle}
                   img={project.img}
+                  stack={project.stack}
                   text={project.text}
                   linkName={project.linkName}
                   url={project.url}
@@ -76,12 +78,13 @@ export default function Portfolio() {
           <div className="container gallery">
               {fashion.map((project, index) => (
                 <Card 
+                  id={index}
                   key={project.key}
                   title={project.title}
                   subtitle={project.subtitle}
                   img={project.img}
+                  stack={project.stack}
                   text={project.text}
-                  linkName={project.linkName}
                   url={project.url}
                 />
               ))}
