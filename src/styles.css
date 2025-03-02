@@ -190,7 +190,7 @@ footer ul {
 .card-text {
   color: #d3ceef;
   font-weight: 400;
-  font-size: clamp(0.7rem, 0.9vw, 0.8rem);
+  font-size: clamp(0.8rem, 0.9vw, 1rem);
   padding: 0.1vw;
   margin-top: 5px;
 }
@@ -273,13 +273,13 @@ body .titlebar b {
   background-color: #1e1168;
 }
 
-.tag{
+.card-body .tag{
   background-color: #8277ba;
   border-radius: 9999px;
   padding: 0.25rem 0.5rem;
   margin-right: 5px;
   margin-bottom: 5px;
-  font-size: (0.75rem, 0.95vw, 0.85rem);
+  font-size: clamp(13px, 0.7vw, 16px);
   color: #d8d2f5
 }
 
