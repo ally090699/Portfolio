@@ -8,13 +8,13 @@ export default function Homepage() {
   return (
     <div className="container">
       <h1 className="title">
-        <b>Welcome</b> to the stash.
+        Hello <b>I'm Alli</b>son.
       </h1>
       <h1 className="title">
-        <b>I'm alli</b>son, your host.
+        <b>Discover</b> my work.
       </h1>
       <h5 className="subtitle">
-        I'm a <b>creator</b>, <b>designer</b>, and <b>daydreamer</b> at heart;
+        I'm a <b>programmer</b>, <b>creator</b> and <b>explorer</b> at heart;
         passionate about bringing ideas to life ― big or small!
       </h5>
       <Carousel img1={img1} img2={img2} img3={img3} />

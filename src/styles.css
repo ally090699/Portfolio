@@ -215,7 +215,6 @@ footer ul {
 /* Sidenav */
 .sidenav {
   position: fixed;
-  margin-top: -5rem;
 }
 
 .sidenav a {
@@ -293,6 +292,10 @@ body .titlebar b {
 .taglist{
   display: flex;
   flex-wrap: wrap;
+}
+
+.portfoliocontent{
+  margin-left: 7.5rem;
 }
 
 /* Colours

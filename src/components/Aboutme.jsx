@@ -8,23 +8,20 @@ export default function Aboutme() {
     <div className="container">
       <div className="abouttitle">
         <h1>
-          Enter <b>my domain</b>.
+          About <b>me</b>.
         </h1>
         <h1>
-          <b>Explore</b> the lore.
+          <b>My</b> journey.
         </h1>
       </div>
       <div>
         <h5 className="subtitle">
-          I am a <b>creator</b>, <b>designer</b> and <b>programmer</b> with a
+          I am a <b>programmer</b>, <b>creator</b> and <b>explorer</b> with a
           foundation in computer science and medical science.
         </h5>
         <div className="travel">
           <p id="caption">
-            I’ve got my hands full with a variety of creative pursuits—whether it's cooking, 
-            baking (still learning!), building websites and apps, designing, crocheting, gaming, 
-            or hiking. I’m always on the lookout for new adventures and mysteries to dive into, 
-            whether in nature or through learning something new every day.
+          My journey is driven by a blend of technical curiosity and creative exploration. As a lifelong learner, I find joy in diverse pursuits, from crafting intricate crochet designs to developing dynamic web applications. My path took an unexpected turn when I discovered a passion for Computer Science late in my degree. This shift, fueled by a deep desire to build and innovate, has shaped my approach to problem-solving and design. 
           </p>
           <div className="photo">
             <img src={image} className="img-fluid" alt="Sea of Clouds in Thailand" />
@@ -33,68 +30,44 @@ export default function Aboutme() {
       </div>
       <div id="aboutcontent">
         <h1 className="abouttitle">
-        <span role="img" aria-label="Girl on Computer emoji">👩🏻‍💻</span><b>experience</b>.
+        <span role="img" aria-label="Girl on Computer emoji">👩🏻‍💻</span><b>Experience</b>.
         </h1>
         <p className="textcontent">
-          Throughout my time at Western University, I have developed multiple software projects 
-          using Python, Java, C, C++, JavaScript, and SQL, applying core principles of algorithms, 
-          data structures, and object-oriented programming. As part of a semester-long group project, 
-          I contributed to the development of a machine learning model for breast cancer diagnosis using 
-          Sklearn, NumPy, Pandas, Seaborn, SciPy, MatPlotLib and Jupyter Notebook, analyzing diagnostic 
-          data to optimize model performance. In another team-based project, I collaborated on an interactive
-           Java-based math game, where I helped design UI components and implement game logic to enhance user 
-           engagement. My coursework also included hands-on experience with database management, where I created, 
-           managed, and queried relational databases using SQL and MS Access, reinforcing my understanding of 
-           data modeling and query optimization. 
+        My foundation in software development is rooted in a robust academic experience at Western University, where I merged Computer Science and Medical Science studies. This interdisciplinary approach has equipped me with a versatile skillset, enabling me to tackle complex problems using a wide range of programming languages, including Python, Java, C, C++, R, HTML, CSS and JavaScript.
         </p>
         <p className="textcontent">
-          Additionally, I have built front-end web applications that emphasize modern design, responsiveness, and
-           user interaction. In Winter 2024, I developed Kit Collective, a fully functional e-commerce website, 
-           using HTML, CSS, JavaScript, jQuery and Bootstrap, incorporating parallax scrolling, Scrollfire animations, 
-           and a validated contact form to enhance functionality. Alongside this, I created my personal portfolio website, 
-           focusing on a clean, intuitive design that effectively showcases my work. Using CSS Grid and Flexbox, I ensured 
-           a fully responsive layout that adapts seamlessly across devices. Both projects highlight my ability to independently 
-           design, develop, and optimize front-end web applications, demonstrating my proficiency in web development and 
-           user-centered design. 
+        In a collaborative project, I led data preprocessing and contributed to data analysis for a breast cancer diagnostic model, leveraging tools like Sklearn, Matplotlib, Numpy and Pandas. Achieving 95% accuracy and 100% recall in early detection showcased my ability to transform raw data into actionable insights, a skill I apply to all my projects.
         </p>
-        <h3 className="aboutsubtitle">
-          .<b>technical skills</b>.
-          </h3>
-          <p className="textcontent">
-          I have a strong foundation in programming languages, including Python, Java, C, C++, JavaScript, R, SQL, and
-          JSON. My web development expertise covers HTML, CSS, JavaScript, Bootstrap, jQuery, React.js, Node.js, 
-          Express.js, REST APIs, Spring Boot, Web Service Design, SEO and AODA Compliance. I have experience working 
-          with databases and data management, including SQL, MySQL, MS SQL Server, and database software, with 
-          PostgreSQL (mastering) as a primary focus.
-          </p>
-          <p className="textcontent">
-          In machine learning and data science, I have applied Scikit-learn, NumPy, Pandas, Seaborn, SciPy, Matplotlib, 
-          and Jupyter Notebook, along with experience in deep learning, GenAI, LLMs, and computer vision. My software 
-          development skills encompass object-oriented design (OOD), data structures, algorithms, software development 
-          life cycle (SDLC – Agile), microservices, Express.js, AutoCAD, and JUnit. I am proficient with various 
-          tools and platforms, including Git/GitHub, Jira, Confluence, Bitbucket, Apache NetBeans, Docker, Jenkins, 
-          Adobe Illustrator, Adobe Photoshop, MS Office (Excel, Access), IntelliJ IDEA, Qt Creator, VS Code and Eclipse. 
-          Additionally, I have experience developing in Linux and JavaOS environments.
-          </p>
-        <h1 className="abouttitle">
-        <span role="img" aria-label="Stack of Books emoji">📚</span><b>education</b>.
-        </h1>
         <p className="textcontent">
-          I am currently completing a Bachelor of Science (BSc) in Medical Science & Computer Science at 
-          Western University, with an expected graduation in April 2025. My coursework includes Software 
-          Development, Web Development, Machine Learning, Computer Networks and Databases, equipping me 
-          with a strong foundation in both theoretical and applied computing. Through group projects, I have 
-          worked on machine learning applications, interactive software development, and database management, 
-          gaining experience in several tools and technologies.
+        My experience extends to full-stack development, notably with a Java-based math game. Here, I spearheaded front-end development and contributed to the game's logic, ensuring a user-friendly and engaging experience. This project reinforced my understanding of the software development lifecycle, utilizing tools like Jira and GitHub for efficient collaboration.
+        </p>
+        <p className="textcontent">
+        Web development is a core strength, evolving from front-end projects like 'Kit Collective' to full-stack applications using React.js, Next.js, Node.js, MySQL and PostgreSQL. My design skills, honed through projects and graphic design work with the Rare Disease Review Journal, allow me to create visually compelling and intuitive user interfaces. I also understand the importance of accessibility, and have experience with AODA compliance.
+        </p>
+        <h3 className="aboutsubtitle">.<b>Skills</b>.</h3>
+        <p className="textcontent">
+        My technical proficiency spans programming languages (Python, Java, JavaScript), web development frameworks (React, Next.js, Tailwind CSS), and data science tools (Sklearn, Pandas). I am also adept at database management (SQL, MySQL, Prisma) and familiar with cloud services (AWS RDS). My experience with Adobe Creative Suite and Figma further complements my design capabilities.
+        </p>
+        <p className="textcontent">
+        Beyond my technical proficiencies, I possess a strong work ethic, a commitment to ongoing learning, and refined communication skills thanks to my sales experience. These attributes, developed through a combination of academic rigor and practical experience, contribute to my effectiveness in collaborative and fast-paced work environments.
+        </p>
+        <p className="textcontent">
+        I am a quick learner and I am always looking to learn new technologies and to improve my skills.
         </p>
         <h1 className="abouttitle">
-        <span role="img" aria-label="Painting Palette emoji">🎨</span><b>art</b>.
+        <span role="img" aria-label="Stack of Books emoji">📚</span><b>Education</b>.
         </h1>
         <p className="textcontent">
-          Though it began as a fun hobby, I have been crocheting for more than
-          four years now and have created over 40 unique pieces. I enjoy working
-          on practical, fashionable and cozy pieces like tote bags, dresses, and
-          sweaters!
+        My academic journey at Western University, culminating in a Bachelor of Science in Medical Science and Computer Science, has provided a strong theoretical and practical foundation. My coursework, ranging from data analytics to software engineering, has equipped me with the skills to tackle diverse technical challenges.
+        </p>
+        <p className="textcontent">
+        My project experience, particularly in machine learning and full-stack development, has allowed me to apply theoretical knowledge to real-world scenarios, reinforcing my problem-solving and collaboration skills.
+        </p>
+        <h1 className="abouttitle">
+        <span role="img" aria-label="Painting Palette emoji">🎨</span><b>Hobbies</b>.
+        </h1>
+        <p className="textcontent">
+        Crocheting and hiking are my creative outlets, allowing me to explore both intricate designs and the natural world. Crocheting fosters my attention to detail and problem-solving skills, while hiking cultivates my sense of exploration and adaptability. These experiences enrich my professional approach, driving me to create innovative and well-crafted solutions.
         </p>
       </div>
     </div>
