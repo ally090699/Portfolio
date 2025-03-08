@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d9021ca02b106b919ae444f82bca17f",
+    "revision": "1d4104f3b94831836acacebcb6866952",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "248dac34b554d6446c1c",
+    "revision": "b2fade1bb545eecf1aa9",
     "url": "/Portfolio/static/css/main.62be659b.chunk.css"
   },
   {
-    "revision": "90eedd4ce030e3cf3ded",
-    "url": "/Portfolio/static/js/2.0dde0d29.chunk.js"
+    "revision": "ee3257dc4fb1c66783a6",
+    "url": "/Portfolio/static/js/2.b6a68d6b.chunk.js"
   },
   {
-    "revision": "248dac34b554d6446c1c",
-    "url": "/Portfolio/static/js/main.62d58357.chunk.js"
+    "revision": "b2fade1bb545eecf1aa9",
+    "url": "/Portfolio/static/js/main.882e14ac.chunk.js"
   },
   {
     "revision": "5be3980083a0b68a5f54",
@@ -118,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8cd43d3e0e7014114d217962f9c5e6ad",
     "url": "/Portfolio/static/media/knightnight.8cd43d3e.png"
+  },
+  {
+    "revision": "e86449396a31c47fc48dbf46a633bbba",
+    "url": "/Portfolio/static/media/lamp-kit-collective.e8644939.png"
   },
   {
     "revision": "8ea5f85cb699567a12381473ecbb5920",
