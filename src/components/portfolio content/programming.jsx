@@ -7,6 +7,7 @@ import img6 from "../../images/kitCollectiveFS.png";
 import img7 from "../../images/knightnight.png";
 import img8 from "../../images/VSAID.png";
 import img9 from "../../images/next-kit-collective.png";
+import img10 from "../../images/lamp-kit-collective.png";
 
 
 const programming = [
@@ -30,7 +31,7 @@ const programming = [
     },
     {
         key: 3,
-        title: "Kit Collective",
+        title: "Kit Collective 1.0",
         subtitle: "Web Development",
         img: img3,
         stack: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "UX Design"],
@@ -78,18 +79,27 @@ const programming = [
         title: "Visual Study AI-D",
         subtitle: "C++ Desktop App",
         img: img8,
-        stack: ["C++", "SQLite", "Git/GitHub"],
-        text: "An ongoing C++ desktop application project designed to convert information from uploaded files or videos into animated summaries. This project showcases skills in C++ development, SQLite database integration for user authentication, and secure password handling.",
+        stack: ["C++", "SQLite", "Git/GitHub", "OpenCV", "Tesseract"],
+        text: "An ongoing C++ desktop application project that converts information from uploaded files or videos into animated summaries. It now integrates OpenCV for camera functionality and Tesseract for text recognition. Additionally, a return button has been added to improve navigation flow. The project also showcases skills in C++ development, SQLite database integration for user authentication, and secure password handling.",
         url: "https://github.com/ally090699/VSAI-D",
     },
     {
         key: 9,
-        title: "Kit Collective",
+        title: "Kit Collective 3.0",
         subtitle: "Full Stack Web Development",
         img: img9,
         stack: ["Next.js", "React", "Prisma", "MySQL", "AWS RDS", "Tailwind CSS", "NextAuth.js", "Git/GitHub", "VS Code", "Postman", "REST APIs"],
         text: "A full-stack e-commerce platform built with Next.js, featuring a MySQL backend hosted on AWS RDS. This project demonstrates proficiency in modern web development, database integration, and API design, with features like dynamic product pages, a functional search bar, and user authentication.",
         url: "https://nextjs-kit-collective.onrender.com",
+    },
+    {
+        key: 10,
+        title: "Kit Collective 4.0",
+        subtitle: "Full Stack Web Development",
+        img: img10,
+        stack: ["Linux/macOS", "Apache", "MySQL", "MariaDB", "AWS RDS", "PHP"],
+        text: "An ongoing full-stack e-commerce and CMS platform project built using the LAMP stack, with a MariaDB database hosted on AWS RDS. Currently, the project focuses on implementing the customer-facing side, including basic user authentication. The admin side for the CMS is still under development. The project is not yet deployed, but the code is available on GitHub to view progress until deployment on Render.",
+        url: "https://github.com/ally090699/lamp-kit-collective",
     },
 ];
 
