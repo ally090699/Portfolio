@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.62be659b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.93ddedde.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.93ddedde.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.d66522a3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d66522a3.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.adf56481.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.adf56481.js.map",
-    "static/js/2.b6a68d6b.chunk.js": "/Portfolio/static/js/2.b6a68d6b.chunk.js",
-    "static/js/2.b6a68d6b.chunk.js.map": "/Portfolio/static/js/2.b6a68d6b.chunk.js.map",
+    "static/js/2.0dde0d29.chunk.js": "/Portfolio/static/js/2.0dde0d29.chunk.js",
+    "static/js/2.0dde0d29.chunk.js.map": "/Portfolio/static/js/2.0dde0d29.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.ea39c09acb74de3797a43abfdd6d314d.js": "/Portfolio/precache-manifest.ea39c09acb74de3797a43abfdd6d314d.js",
+    "precache-manifest.4256bd9ac8dec223b106acfafdb3968b.js": "/Portfolio/precache-manifest.4256bd9ac8dec223b106acfafdb3968b.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.62be659b.chunk.css.map": "/Portfolio/static/css/main.62be659b.chunk.css.map",
     "static/media/Breast_Cancer_Diagnosis.png": "/Portfolio/static/media/Breast_Cancer_Diagnosis.458a85a9.png",
@@ -25,7 +25,6 @@
     "static/media/embroidery_zoro.jpg": "/Portfolio/static/media/embroidery_zoro.8b3ed7c1.jpg",
     "static/media/fashion_design_1.jpeg": "/Portfolio/static/media/fashion_design_1.d716e4b3.jpeg",
     "static/media/fashion_design_2.jpeg": "/Portfolio/static/media/fashion_design_2.d9787459.jpeg",
-    "static/media/fashion_design_3.jpeg": "/Portfolio/static/media/fashion_design_3.a7e4b5aa.jpeg",
     "static/media/graphic_designJFSS2.jpg": "/Portfolio/static/media/graphic_designJFSS2.e8269428.jpg",
     "static/media/graphic_design_JFSS.jpg": "/Portfolio/static/media/graphic_design_JFSS.3e390749.jpg",
     "static/media/graphic_design_OCA1.png": "/Portfolio/static/media/graphic_design_OCA1.20defe3a.png",
@@ -43,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.adf56481.js",
-    "static/js/2.b6a68d6b.chunk.js",
+    "static/js/2.0dde0d29.chunk.js",
     "static/css/main.62be659b.chunk.css",
-    "static/js/main.93ddedde.chunk.js"
+    "static/js/main.d66522a3.chunk.js"
   ]
 }

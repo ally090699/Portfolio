@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "199d3dd1eea4e730df7e13188f2ba9dc",
+    "revision": "23e04029170a919ff8e00eb04a796e23",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "28289f072361327d2d19",
+    "revision": "555cadbe03b2c0cd212b",
     "url": "/Portfolio/static/css/main.62be659b.chunk.css"
   },
   {
-    "revision": "ee3257dc4fb1c66783a6",
-    "url": "/Portfolio/static/js/2.b6a68d6b.chunk.js"
+    "revision": "90eedd4ce030e3cf3ded",
+    "url": "/Portfolio/static/js/2.0dde0d29.chunk.js"
   },
   {
-    "revision": "28289f072361327d2d19",
-    "url": "/Portfolio/static/js/main.93ddedde.chunk.js"
+    "revision": "555cadbe03b2c0cd212b",
+    "url": "/Portfolio/static/js/main.d66522a3.chunk.js"
   },
   {
     "revision": "5be3980083a0b68a5f54",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d97874598490f905c535a5f46b58a825",
     "url": "/Portfolio/static/media/fashion_design_2.d9787459.jpeg"
-  },
-  {
-    "revision": "a7e4b5aac03308f7f1ef08a5e116300b",
-    "url": "/Portfolio/static/media/fashion_design_3.a7e4b5aa.jpeg"
   },
   {
     "revision": "e8269428981352aec3ddac49765c03b6",
