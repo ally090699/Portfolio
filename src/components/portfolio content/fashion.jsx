@@ -1,6 +1,5 @@
 import img1 from "../../images/fashion_design_1.jpeg";
 import img2 from "../../images/fashion_design_2.jpeg";
-import img3 from "../../images/fashion_design_3.jpeg";
 import img4 from "../../images/embroidery_zoro.jpg";
 import img5 from "../../images/embroidery_leloush.jpg";
 import img6 from "../../images/crochet1.jpg";
@@ -23,15 +22,6 @@ const fashion = [
         subtitle: "Fashion Design",
         img: img2,
         text: "A crystal-like top in icy tones, perfect for dressing up or dressing down.",
-        linkName: "",
-        url: "",
-    },
-    {
-        key: 3,
-        title: "River's Edge",
-        subtitle: "Fashion Design",
-        img: img3,
-        text: "A fluid purple design with dynamic, edgy accents that incorporate comfort and style.",
         linkName: "",
         url: "",
     },
