@@ -99,7 +99,7 @@ const programming = [
         img: img10,
         stack: ["Linux/macOS", "Apache", "MySQL", "MariaDB", "AWS RDS", "PHP"],
         text: "Kit Collective 4.0 is a fully functional full-stack e-commerce and CMS platform built using the LAMP stack, with a MariaDB database hosted on AWS RDS and deployed on an EC2 instance within a VPC. This latest version includes significant improvements over previous iterations, enhancing both functionality and user experience.",
-        url: "http://18.218.216.21/lamp-kit-collective/public/index.php",
+        url: "https://github.com/ally090699/lamp-kit-collective",
     },
 ];
 
