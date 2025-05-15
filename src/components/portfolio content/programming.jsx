@@ -36,7 +36,7 @@ const programming = [
         img: img3,
         stack: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "UX Design"],
         text: "An e-commerce website built with Bootstrap, featuring enhanced parallax effects, scroll-triggered animations, and a responsive design. This project emphasizes front-end development skills and a focus on creating engaging user experiences.",
-        url: "https://ally090699.github.io/Kit-Collective/",
+        url: "https://ally090699.github.io/basic-kit-collective/",
     },
     {
         key: 4,
@@ -59,11 +59,11 @@ const programming = [
     {
         key: 6,
         title: "Kit Collective 2.0",
-        subtitle: "Full Stack Web Development",
+        subtitle: "Web Development",
         img: img6,
-        stack: ["React", "PostgreSQL", "Render", "HTML", "CSS", "JavaScript", "Git/GitHub"],
-        text: "A full-stack e-commerce platform built with React and PostgreSQL, hosted on Render. This project features a functional contact form and focuses on creating a seamless user experience, demonstrating proficiency in modern web development practices and database integration.",
-        url: "https://kit-collective-snh4.onrender.com/",
+        stack: ["ReactJS", "HTML", "CSS", "JavaScript", "Git/GitHub"],
+        text: "A React e-commerce platform hosted on Github Pages. This project features a shopping cart, dynamic product pages, a contact form and focuses on creating a seamless user experience, demonstrating proficiency in modern front-end web development practices.",
+        url: "https://ally090699.github.io/react-kit-collective/",
     },
     {
         key: 7,
@@ -88,9 +88,9 @@ const programming = [
         title: "Kit Collective 3.0",
         subtitle: "Full Stack Web Development",
         img: img9,
-        stack: ["Next.js", "React", "Prisma", "MySQL", "AWS RDS", "Tailwind CSS", "NextAuth.js", "Git/GitHub", "VS Code", "Postman", "REST APIs"],
-        text: "A full-stack e-commerce platform built with Next.js, featuring a MySQL backend hosted on AWS RDS. This project demonstrates proficiency in modern web development, database integration, and API design, with features like dynamic product pages, a functional search bar, and user authentication.",
-        url: "https://nextjs-kit-collective.onrender.com",
+        stack: ["Next.js", "React", "Prisma", "MySQL", "AWS RDS", "Tailwind CSS", "NextAuth.js", "Git/GitHub", "Postman", "REST APIs"],
+        text: "A full-stack e-commerce platform built with Next.js, it featured a MySQL backend hosted on AWS RDS but has since been taken off deployment. This project demonstrates proficiency in modern front-end web development, database integration, and API design, featuring Tailwind CSS, dynamic product pages and user authentication.",
+        url: "https://github.com/ally090699/nextjs-kit-collective",
     },
     {
         key: 10,
@@ -98,7 +98,7 @@ const programming = [
         subtitle: "Full Stack Web Development",
         img: img10,
         stack: ["Linux/macOS", "Apache", "MySQL", "MariaDB", "AWS RDS", "PHP"],
-        text: "Kit Collective 4.0 is a fully functional full-stack e-commerce and CMS platform built using the LAMP stack, with a MariaDB database hosted on AWS RDS and deployed on an EC2 instance within a VPC. This latest version includes significant improvements over previous iterations, enhancing both functionality and user experience.",
+        text: "Kit Collective 4.0 is a fully functional full-stack e-commerce and CMS platform built using the LAMP stack, with a MariaDB database hosted on AWS RDS and deployed on an EC2 instance within a VPC. It has since been taken off deployment but the code is available on Github. This version features an admin-side CMS to manage content on the user-side, enhancing both functionality and user experience.",
         url: "https://github.com/ally090699/lamp-kit-collective",
     },
 ];
