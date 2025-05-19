@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.62be659b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.69f0604f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.69f0604f.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.3697ff20.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3697ff20.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.adf56481.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.adf56481.js.map",
-    "static/js/2.0dde0d29.chunk.js": "/Portfolio/static/js/2.0dde0d29.chunk.js",
-    "static/js/2.0dde0d29.chunk.js.map": "/Portfolio/static/js/2.0dde0d29.chunk.js.map",
+    "static/js/2.12ba4eb0.chunk.js": "/Portfolio/static/js/2.12ba4eb0.chunk.js",
+    "static/js/2.12ba4eb0.chunk.js.map": "/Portfolio/static/js/2.12ba4eb0.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.d3d1f9206d6a80822a3ae60212cd4da1.js": "/Portfolio/precache-manifest.d3d1f9206d6a80822a3ae60212cd4da1.js",
+    "precache-manifest.a9a39f1d27a046f8a6a99c00a93de59b.js": "/Portfolio/precache-manifest.a9a39f1d27a046f8a6a99c00a93de59b.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.62be659b.chunk.css.map": "/Portfolio/static/css/main.62be659b.chunk.css.map",
     "static/media/Breast_Cancer_Diagnosis.png": "/Portfolio/static/media/Breast_Cancer_Diagnosis.458a85a9.png",
@@ -16,15 +16,8 @@
     "static/media/Minesweeper.png": "/Portfolio/static/media/Minesweeper.a80626c9.png",
     "static/media/VSAID.png": "/Portfolio/static/media/VSAID.cce20be0.png",
     "static/media/coding_in_action.png": "/Portfolio/static/media/coding_in_action.278c34f1.png",
-    "static/media/crochet1.jpg": "/Portfolio/static/media/crochet1.ce511f12.jpg",
-    "static/media/crochet2.jpg": "/Portfolio/static/media/crochet2.464c7453.jpg",
-    "static/media/crochet3.jpg": "/Portfolio/static/media/crochet3.a7eb4922.jpg",
     "static/media/crochetinaction.png": "/Portfolio/static/media/crochetinaction.1013ab58.png",
     "static/media/designing_in_action.png": "/Portfolio/static/media/designing_in_action.d719523e.png",
-    "static/media/embroidery_leloush.jpg": "/Portfolio/static/media/embroidery_leloush.e4ffedca.jpg",
-    "static/media/embroidery_zoro.jpg": "/Portfolio/static/media/embroidery_zoro.8b3ed7c1.jpg",
-    "static/media/fashion_design_1.jpeg": "/Portfolio/static/media/fashion_design_1.d716e4b3.jpeg",
-    "static/media/fashion_design_2.jpeg": "/Portfolio/static/media/fashion_design_2.d9787459.jpeg",
     "static/media/graphic_designJFSS2.jpg": "/Portfolio/static/media/graphic_designJFSS2.e8269428.jpg",
     "static/media/graphic_design_JFSS.jpg": "/Portfolio/static/media/graphic_design_JFSS.3e390749.jpg",
     "static/media/graphic_design_OCA1.png": "/Portfolio/static/media/graphic_design_OCA1.20defe3a.png",
@@ -37,13 +30,14 @@
     "static/media/knightnight.png": "/Portfolio/static/media/knightnight.8cd43d3e.png",
     "static/media/lamp-kit-collective.png": "/Portfolio/static/media/lamp-kit-collective.e8644939.png",
     "static/media/next-kit-collective.png": "/Portfolio/static/media/next-kit-collective.8ea5f85c.png",
+    "static/media/react-the-stash.png": "/Portfolio/static/media/react-the-stash.cb4758d5.png",
     "static/media/travel.png": "/Portfolio/static/media/travel.21cc32fd.png",
     "static/media/uwo_logo.png": "/Portfolio/static/media/uwo_logo.358ca4ea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.adf56481.js",
-    "static/js/2.0dde0d29.chunk.js",
+    "static/js/2.12ba4eb0.chunk.js",
     "static/css/main.62be659b.chunk.css",
-    "static/js/main.69f0604f.chunk.js"
+    "static/js/main.3697ff20.chunk.js"
   ]
 }

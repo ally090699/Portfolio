@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06e511976c0a5bbf3657630084ab1a2f",
+    "revision": "6376ce518109b8d645f3b8ce75eac6d8",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "9a09115186d8c293af7d",
+    "revision": "7965f8498f81157df4dc",
     "url": "/Portfolio/static/css/main.62be659b.chunk.css"
   },
   {
-    "revision": "90eedd4ce030e3cf3ded",
-    "url": "/Portfolio/static/js/2.0dde0d29.chunk.js"
+    "revision": "1d350a1eff00d85718dd",
+    "url": "/Portfolio/static/js/2.12ba4eb0.chunk.js"
   },
   {
-    "revision": "9a09115186d8c293af7d",
-    "url": "/Portfolio/static/js/main.69f0604f.chunk.js"
+    "revision": "7965f8498f81157df4dc",
+    "url": "/Portfolio/static/js/main.3697ff20.chunk.js"
   },
   {
     "revision": "5be3980083a0b68a5f54",
@@ -40,40 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/coding_in_action.278c34f1.png"
   },
   {
-    "revision": "ce511f1299c0de337dc1b0301c9671c4",
-    "url": "/Portfolio/static/media/crochet1.ce511f12.jpg"
-  },
-  {
-    "revision": "464c74536b81b6116b419adba2982b07",
-    "url": "/Portfolio/static/media/crochet2.464c7453.jpg"
-  },
-  {
-    "revision": "a7eb492242cf892f0b8949ae37f2facd",
-    "url": "/Portfolio/static/media/crochet3.a7eb4922.jpg"
-  },
-  {
     "revision": "1013ab58d77acb8732a537cc4d7f6d34",
     "url": "/Portfolio/static/media/crochetinaction.1013ab58.png"
   },
   {
     "revision": "d719523e630432dab46a4f76467b2743",
     "url": "/Portfolio/static/media/designing_in_action.d719523e.png"
-  },
-  {
-    "revision": "e4ffedcab4ce844b801785e1cf888761",
-    "url": "/Portfolio/static/media/embroidery_leloush.e4ffedca.jpg"
-  },
-  {
-    "revision": "8b3ed7c1849c0174c8d7d2a57ae012b8",
-    "url": "/Portfolio/static/media/embroidery_zoro.8b3ed7c1.jpg"
-  },
-  {
-    "revision": "d716e4b34d40c0682df02b27eb5b77d7",
-    "url": "/Portfolio/static/media/fashion_design_1.d716e4b3.jpeg"
-  },
-  {
-    "revision": "d97874598490f905c535a5f46b58a825",
-    "url": "/Portfolio/static/media/fashion_design_2.d9787459.jpeg"
   },
   {
     "revision": "e8269428981352aec3ddac49765c03b6",
@@ -122,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ea5f85cb699567a12381473ecbb5920",
     "url": "/Portfolio/static/media/next-kit-collective.8ea5f85c.png"
+  },
+  {
+    "revision": "cb4758d59402500d087ac7f405c91b6a",
+    "url": "/Portfolio/static/media/react-the-stash.cb4758d5.png"
   },
   {
     "revision": "21cc32fd55bd42ffa5a8b8629864067b",
