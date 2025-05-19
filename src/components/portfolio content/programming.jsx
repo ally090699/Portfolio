@@ -8,6 +8,7 @@ import img7 from "../../images/knightnight.png";
 import img8 from "../../images/VSAID.png";
 import img9 from "../../images/next-kit-collective.png";
 import img10 from "../../images/lamp-kit-collective.png";
+import img11 from "../../images/react-the-stash.png";
 
 
 const programming = [
@@ -100,6 +101,15 @@ const programming = [
         stack: ["Linux/macOS", "Apache", "MySQL", "MariaDB", "AWS RDS", "PHP"],
         text: "Kit Collective 4.0 is a fully functional full-stack e-commerce and CMS platform built using the LAMP stack, with a MariaDB database hosted on AWS RDS and deployed on an EC2 instance within a VPC. It has since been taken off deployment but the code is available on Github. This version features an admin-side CMS to manage content on the user-side, enhancing both functionality and user experience.",
         url: "https://github.com/ally090699/lamp-kit-collective",
+    },
+    {
+        key: 11,
+        title: "The Stash",
+        subtitle: "Web Development",
+        img: img11,
+        stack: ["ReactJS", "Vite", "HTML", "CSS", "Git/Github"],
+        text: "Beyond showcasing my fashion illustrations, embroidery, and crochet, The Stash is a fully functional web portfolio built with ReactJS and Vite. Browse this site to experience my front-end development skills, including responsive design, dynamic content rendering, and efficient build processes (Git/Github).",
+        url: "https://ally090699.github.io/react-the-stash/",
     },
 ];
 

@@ -2,12 +2,12 @@ import React, {useRef} from "react";
 import Card from "./Card";
 import programming from "./portfolio content/programming";
 import designing from "./portfolio content/designing";
-import fashion from "./portfolio content/fashion"
+// import fashion from "./portfolio content/fashion"
 
 export default function Portfolio() {
   const programmingRef = useRef(null);
   const designRef = useRef(null);
-  const fashionRef = useRef(null);
+  // const fashionRef = useRef(null);
 
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -37,9 +37,9 @@ export default function Portfolio() {
                   <a className="p-1 rounded" onClick={() => scrollToSection(designRef)}>
                     design.
                   </a>
-                  <a className="p-1 rounded" onClick={() => scrollToSection(fashionRef)}>
+                  {/* <a className="p-1 rounded" onClick={() => scrollToSection(fashionRef)}>
                     fashion.
-                  </a>
+                  </a> */}
               </div>
 
               <div className="portfoliocontent">
@@ -82,7 +82,7 @@ export default function Portfolio() {
                       />
                     ))}
                 </div>
-                <h4 ref={fashionRef}>Fashion.</h4>
+                {/* <h4 ref={fashionRef}>Fashion.</h4>
                 <div className="container gallery">
                     {fashion.map((project, index) => (
                       <Card 
@@ -96,7 +96,7 @@ export default function Portfolio() {
                         url={project.url}
                       />
                     ))}
-                </div>
+                </div> */}
               </div>
         </div>
     </div>
