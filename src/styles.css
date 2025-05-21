@@ -167,10 +167,13 @@ footer ul {
 .card-body {
   background-color: #120650d7;
   border-radius: 5px;
+}
+
+.card .card-body{
   transition: all 0.5s ease;
 }
 
-.card-body:hover{
+.card .card-body:hover{
   background-color: #0c023f;
   transform: translateX(-5px) translateY(-5px) scale(1.1);
 }
