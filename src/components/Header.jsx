@@ -8,7 +8,7 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: "#120650"}}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          thestash.
+          Allison So's Portfolio
         </Link>
         <button
           className="navbar-toggler"
@@ -25,17 +25,17 @@ export default function Header() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className={`nav-link ${location.pathname === "/" ? "active" : ""}`} to="/">
-                homebase
+                Home
               </Link>
             </li>
             <li className="nav-item">
               <Link className={`nav-link ${location.pathname === "/aboutme" ? "active" : ""}`} to="/aboutme">
-                about me
+                About
               </Link>
             </li>
             <li className="nav-item">
               <Link className={`nav-link ${location.pathname === "/portfolio" ? "active" : ""}`} to="/portfolio">
-                portfolio
+                Portfolio
               </Link>
             </li>
           </ul>

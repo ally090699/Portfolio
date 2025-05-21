@@ -7,13 +7,13 @@ export default function Footer() {
       <div className="footleft">
         <ul>
           <li>
-            <Link to="/">homebase.</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/aboutme">about me.</Link>
+            <Link to="/aboutme">About</Link>
           </li>
           <li>
-            <Link to="/portfolio">portfolio.</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
           <br />
           <li>
