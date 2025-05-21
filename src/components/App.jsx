@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Homepage from "./Homepage";
 import Aboutme from "./Aboutme";
 import Portfolio from "./Portfolio";
+import CardDetails from "./CardDetails";
 import "../styles.css";
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Switch>
             <Route exact path="/" component={Homepage} />
             <Route path="/aboutme" component={Aboutme} />
+            <Route path="/portfolio/:id" component={CardDetails}/>
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
         </div>

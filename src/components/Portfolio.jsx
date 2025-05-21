@@ -1,17 +1,20 @@
 import React, {useRef} from "react";
 import Card from "./Card";
-import programming from "./portfolio content/programming";
-import designing from "./portfolio content/designing";
-// import fashion from "./portfolio content/fashion"
+import content from "./portfolio content/content";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   const programmingRef = useRef(null);
   const designRef = useRef(null);
-  // const fashionRef = useRef(null);
+  const webRef = useRef(null);
 
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
+
+  const graphicdesign=content.filter((item) => item.subtitle === "Graphic Design");
+  const webdesign=content.filter((item) => item.subtitle === "Web Development");
+  const mainprog=content.filter((item) => item.subtitle !== "Web Development" && item.subtitle !== "Graphic Design");
 
   return (
     <div>
@@ -34,12 +37,13 @@ export default function Portfolio() {
                   <a className="p-1 rounded" onClick={() => scrollToSection(programmingRef)}>
                     programming.
                   </a>
+                  <a className="p-1 rounded" onClick={() => scrollToSection(webRef)}>
+                    web programming.
+                  </a>
                   <a className="p-1 rounded" onClick={() => scrollToSection(designRef)}>
                     design.
                   </a>
-                  {/* <a className="p-1 rounded" onClick={() => scrollToSection(fashionRef)}>
-                    fashion.
-                  </a> */}
+                  
               </div>
 
               <div className="portfoliocontent">
@@ -53,7 +57,8 @@ export default function Portfolio() {
                 >
                   <h4 ref={programmingRef}>Programming.</h4>
                   <div className="container gallery">
-                    {programming.map((project, index) => (
+                    {mainprog.map((project) => (
+                    <Link to={`/portfolio/${project.key}`} key={project.key} className="link">
                       <Card 
                         key={project.key}
                         title={project.title}
@@ -64,12 +69,30 @@ export default function Portfolio() {
                         linkName={project.linkName}
                         url={project.url}
                       />
+                    </Link>
                     ))}
                   </div>
                 </div>
+                <h4 ref={webRef}>Web Programming.</h4>
+                <div className="container gallery">
+                    {webdesign.map((project) => (
+                    <Link to={`/portfolio/${project.key}`} key={project.key} className="link">
+                      <Card 
+                        key={project.key}
+                        title={project.title}
+                        subtitle={project.subtitle}
+                        img={project.img}
+                        stack={project.stack}
+                        text={project.text}
+                        url={project.url}
+                      />
+                    </Link>
+                    ))}
+                </div>
                 <h4 ref={designRef}>Design.</h4>
                 <div className="container gallery">
-                {designing.map((project, index) => (
+                {graphicdesign.map((project) => (
+                    <Link to={`/portfolio/${project.key}`} key={project.key} className="link">
                       <Card 
                         key={project.key}
                         title={project.title}
@@ -80,23 +103,9 @@ export default function Portfolio() {
                         linkName={project.linkName}
                         url={project.url}
                       />
+                    </Link>
                     ))}
                 </div>
-                {/* <h4 ref={fashionRef}>Fashion.</h4>
-                <div className="container gallery">
-                    {fashion.map((project, index) => (
-                      <Card 
-                        id={index}
-                        key={project.key}
-                        title={project.title}
-                        subtitle={project.subtitle}
-                        img={project.img}
-                        stack={project.stack}
-                        text={project.text}
-                        url={project.url}
-                      />
-                    ))}
-                </div> */}
               </div>
         </div>
     </div>

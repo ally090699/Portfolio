@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Carousel(props) {
+export default function Carousel({ media = [] }) {
   return (
     <div>
       <div
@@ -9,28 +9,44 @@ export default function Carousel(props) {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src={props.img1}
-              className="d-block w-100"
-              alt="Coding in Action"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={props.img2}
-              className="d-block w-100"
-              alt="Designing in Action"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={props.img3}
-              className="d-block w-100"
-              alt="Crocheting In Action"
-            />
-          </div>
+          {media.map((item, index) => {
+            const isVideo = /\.(mp4|mov|webm)$/i.test(item.src);
+            return (
+              <div
+                className={`carousel-item ${index === 0 ? "active" : ""}`}
+                key={index}
+              >
+                {isVideo ? (
+                  <video
+                    className="d-block w-100"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    controls
+                  >
+                    <source
+                      src={item.src}
+                      type={
+                        item.src.toLowerCase().endsWith('.mov')
+                          ? 'video/quicktime'
+                          : `video/${item.src.split('.').pop().toLowerCase()}`
+                      }
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                ) : (
+                  <img
+                    src={item.src}
+                    className="d-block w-100"
+                    alt={item.alt || `Media ${index + 1}`}
+                  />
+                )}
+              </div>
+            );
+          })}
         </div>
+
         <button
           className="carousel-control-prev"
           type="button"

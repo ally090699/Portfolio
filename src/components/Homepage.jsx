@@ -17,7 +17,13 @@ export default function Homepage() {
         I'm a <b>programmer</b>, <b>creator</b> and <b>explorer</b> at heart;
         passionate about bringing ideas to life ― big or small!
       </h5>
-      <Carousel img1={img1} img2={img2} img3={img3} />
+      <Carousel 
+      media={[
+        { src: img1, alt: "Coding in Action" },
+        { src: img2, alt: "Designing in Action" },
+        { src: img3, alt: "Crocheting in Action" },
+      ]}
+      />
     </div>
   );
 }
