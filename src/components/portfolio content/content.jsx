@@ -21,6 +21,7 @@ import bkc from "../../images/basic-kit-collective.mp4";
 import rkc from "../../images/react-kit-collective.mp4";
 import lkc from "../../images/lamp-kit-collective.mp4";
 import lkca from "../../images/lamp-kit-collective-admin.mp4";
+import rts from "../../images/react-the-stash.mp4";
 
 const content = [
     {
@@ -126,7 +127,7 @@ const content = [
         key: 11,
         title: "The Stash",
         subtitle: "Web Development",
-        img: [img11],
+        img: [img11, rts],
         stack: ["ReactJS", "Vite", "HTML", "CSS", "Git/Github"],
         text: "Beyond showcasing my fashion illustrations, embroidery, and crochet, The Stash is a fully functional web portfolio built with ReactJS and Vite. Browse this site to experience my front-end development skills, including responsive design, dynamic content rendering, and efficient build processes (Git/Github).",
         linkName: ["Github"],
