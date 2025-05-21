@@ -29,7 +29,7 @@ export default function Portfolio() {
           </div>
       </div>
 
-      <div className="">
+      <div id="portfolio">
               <div
                 id="simple-list-example"
                 className="w-1/4 sidenav d-flex flex-column colleft gap-2 text-left"
@@ -52,10 +52,10 @@ export default function Portfolio() {
                   data-bs-target="#simple-list-example"
                   data-bs-offset="0"
                   data-bs-smooth-scroll="true"
-                  className="scrollspy-example"
+                  className="scrollspy-example mx-2"
                   tabIndex="0"
                 >
-                  <h4 ref={programmingRef}>Programming.</h4>
+                  <h4 ref={programmingRef} className="portfolio-sect-title mx-4">Programming.</h4>
                   <div className="container gallery">
                     {mainprog.map((project) => (
                     <Link to={`/portfolio/${project.key}`} key={project.key} className="link">
@@ -73,7 +73,7 @@ export default function Portfolio() {
                     ))}
                   </div>
                 </div>
-                <h4 ref={webRef}>Web Programming.</h4>
+                <h4 ref={webRef} className="portfolio-sect-title mx-4">Web Programming.</h4>
                 <div className="container gallery">
                     {webdesign.map((project) => (
                     <Link to={`/portfolio/${project.key}`} key={project.key} className="link">
@@ -89,7 +89,7 @@ export default function Portfolio() {
                     </Link>
                     ))}
                 </div>
-                <h4 ref={designRef}>Design.</h4>
+                <h4 ref={designRef} className="portfolio-sect-title mx-4">Design.</h4>
                 <div className="container gallery">
                 {graphicdesign.map((project) => (
                     <Link to={`/portfolio/${project.key}`} key={project.key} className="link">

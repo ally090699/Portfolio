@@ -77,7 +77,7 @@ b {
   font-family: "Jost";
   font-size: clamp(1.2rem, 2vw, 1.4rem);
   padding: 15px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   text-align: center;
   font-weight: 300;
   color: #1e1168;
@@ -153,14 +153,10 @@ footer ul {
 
 /* portfolio */
 .gallery {
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
   align-items: flex-start;
-  column-gap: 10px;
-  row-gap: 10px;
+  gap: 0.25rem;
 }
 
 .gallery > div {
@@ -171,6 +167,12 @@ footer ul {
 .card-body {
   background-color: #120650d7;
   border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.card-body:hover{
+  background-color: #0c023f;
+  transform: translateX(-5px) translateY(-5px) scale(1.1);
 }
 
 .card-title {
@@ -223,6 +225,11 @@ footer ul {
   font-size: clamp(1rem, 1.2vw, 1.1rem);
   font-stretch: semi-condensed;
   text-decoration: none;
+}
+
+.scrollspy-example h4, .portfolio-sect-title{
+  color:#ec1cb1;
+  font-weight: 600;
 }
 
 .row {
@@ -283,6 +290,12 @@ body .titlebar b {
 .taglist{
   display: flex;
   flex-wrap: wrap;
+}
+
+#portfolio{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
 }
 
 .portfoliocontent{
