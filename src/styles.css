@@ -40,8 +40,8 @@ nav {
 }
 
 /* Carousel */
+
 .carousel-inner{
-  display: flex;
   align-items: center;
   max-height: 30rem;
 }
@@ -314,8 +314,10 @@ body .titlebar b {
   color:#120650;
 }
 
-.card-body.page img{
+.card-body.page img, .card-body.page video{
   margin: 0 0 1rem 0;
+  max-height: 30rem;
+  max-width: max-content;
 }
 
 .card-body.page .title{
@@ -345,6 +347,11 @@ body .titlebar b {
 .card-body.page a:hover{
   color: #ec1cb1;
   cursor: pointer;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  height: 7rem;
+  align-self: center;
 }
 
 /* Colours

@@ -13,12 +13,12 @@ export default function Carousel({ media = [] }) {
             const isVideo = /\.(mp4|mov|webm)$/i.test(item.src);
             return (
               <div
-                className={`carousel-item ${index === 0 ? "active" : ""}`}
+                className={`carousel-item flex justify-center items-center w-full ${index === 0 ? "active" : ""}`}
                 key={index}
               >
                 {isVideo ? (
                   <video
-                    className="d-block w-100"
+                    className="d-block w-100 mx-auto"
                     autoPlay
                     muted
                     loop
@@ -38,7 +38,7 @@ export default function Carousel({ media = [] }) {
                 ) : (
                   <img
                     src={item.src}
-                    className="d-block w-100"
+                    className="d-block w-100 mx-auto"
                     alt={item.alt || `Media ${index + 1}`}
                   />
                 )}
